@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    margin: 0px;
+    font-family: 'Segoe UI Light', sans-serif;
+}
+
+
+#main-logo {
+    filter: invert(1);
+    height: 70%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    transition: 0.2s;
+}
+
+#main-logo:hover{
+    filter: invert(0);
+    transition: 0.3s;
+}
+
+.main-banner {
+    /*top: 4%;*/
+    filter: blur();
+    height: 18%;
+    width: 100%;
+    background-color: #151965;
+    position: fixed;
+    z-index: 5;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-banner-nav {
+    /*background-color: green;*/
+    list-style-type: none;
+    display: inline-block;
+    position: absolute;
+    /*top: 17.43%;*/
+    left: 74.81%;
+    bottom: 47%;
+    top: 37%;
+}
+
+
+
+li {
+    /*background-color: white;*/
+    display: inline-block;
+    position: relative;
+    padding-left: 11px;
+    padding-right: 11px;
+    transition: 0.3s;
+    font-size: large;
+
+}
+
+ol{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#first-nav-menu-link {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    transition: 0.3s;
+    text-decoration: white wavy underline;
+
+}
+
+.index-splash-img{
+    top: 18%;
+    display: inline-block;
+    position: absolute;
+    height: 600px;
+    z-index: 1;
+}
+
+#splash-img{
+    transition: 0.3s ease-in;
+    width: 100%;
+    overflow-x: hidden;
+    transition: transform .8s ease;
+    filter: black;
+    filter: grayscale(100%);
+    transition: 0.4s ease-out;
+}
+
+#splash-img:hover{
+    transform: scale(1);
+    transition: 0.4s ease-in;
+    filter: grayscale(0%);
+}
+
+.quick-toggle-banner {
+    position: absolute;
+    height: 4%;
+    width: 100%;
+    background-color: rgba(26, 218, 252, 0.87);
+    z-index: 5;
+}
